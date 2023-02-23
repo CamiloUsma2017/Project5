@@ -1,0 +1,101 @@
+.poke_home-footer{
+  display: grid;
+  position: relative;
+}
+
+.footer__red {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  background-image: url(https://media.istockphoto.com/id/171316682/es/foto/fondo-grunge-rojo.jpg?b=1&s=170667a&w=0&k=20&c=SYA2jAgewV_-nurfpRL9L02x9HgNGvb2itvKQFOxcsg=);
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+.footer__black{
+  background-color: black;
+  height: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: -90px;
+  z-index: 4;
+}
+
+.footer__white{
+  position: absolute;
+  height: 90px;
+  background-image: url(https://thumbs.dreamstime.com/b/mancha-de-agua-sobre-fondo-textura-pared-hormig%C3%B3n-gris-blanco-adecuado-para-art%C3%ADculos-dise%C3%B1o-arquitect%C3%B3nico-e-interior-o-185297354.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  bottom: -170px;
+  z-index: 1;
+}
+
+.footer__pokeball{
+  position: absolute;
+  right: 230px;
+  top: 35px;
+  background-color: rgba(255, 255,255, 1);
+  border: 10px solid #0c0c0c;
+  width: 90px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.footer__pokeball::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-color: rgba(33, 33, 33, 1);
+  border: 10px solid #0c0c0c;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* @media(max-width: 740px){
+  .poke_home-footer{
+    bottom: -110px;
+  }
+
+  .footer__red{
+    width: 100%;
+  }
+
+  .footer__black{
+    position: absolute;
+    z-index: 2;
+  }
+
+  .footer__white{
+    position: absolute;
+    height: 45px;
+    width: 100%;
+  }
+
+  .footer__pokeball{
+    right: 50px;
+    top: 20px;
+    border: 7px solid #0c0c0c;
+    width: 70px;
+  }
+
+  .footer__pokeball::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-color: rgba(33, 33, 33, 1);
+    border: 8px solid #0c0c0c;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} */

@@ -1,0 +1,223 @@
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 400;
+    color: rgb(192, 183, 183);
+    margin-left: 20px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-family: 'Games', sans-serif;
+}
+
+.title span{
+    color:rgb(247, 94, 55);
+    font-weight: 550;
+}
+
+.container_search{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 25px;
+    justify-content: center;
+}
+
+.poke_search{
+    display: grid;
+    grid-template-columns: 3fr 0.5fr;
+    padding: 15px;
+    padding-right: 100px;
+}
+
+.poke_input{
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(253, 230, 230);
+    outline: none;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.poke_btn{
+    padding: 10px;
+    border-color: rgb(235, 104, 104);
+    background-color: rgb(235, 104, 104);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.poke_btn:hover{
+    border-color: rgb(112, 58, 58);
+    background-color: rgb(112, 58, 58);
+}
+
+.poke_change{
+    padding: 15px;
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media(max-width: 740px){
+    .title{
+        font-size: 20px;
+    }
+
+    .container_search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .poke_search{
+        padding: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .poke_input{
+        display: grid;
+        padding: 15px;
+        padding-right: 0px;
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    .poke_btn{
+        font-size: 15px;
+        padding: 5px;
+   
+    }
+
+}
+
+/* *********** PAGINACION ************** */
+
+.pagination_container{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.pagination_poke{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    max-width: 300%;
+    list-style: none;
+}
+
+.poke_arrow{
+    background-color: rgb(226, 48, 48);
+    color: white;
+    font-size: 25px;
+    font-weight: 600px;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.poke_arrow:hover{
+    background-color: rgb(112, 58, 58);
+}
+
+.poke_arrow-der{
+    background-color: rgb(226, 48, 48);
+    color: white;
+    font-size: 25px;
+    font-weight: 600px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.poke_arrow-der:hover{
+    background-color: rgb(112, 58, 58);
+}
+
+
+.poke_more{
+    background-color: rgb(250, 192, 192);
+    color: rgb(226, 48, 48);
+    font-size: 25px;
+    font-weight: 600px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(226, 48, 48);
+}
+
+.poke_more:hover{
+    background-color: rgb(112, 58, 58);
+    color: white;
+    border-color: rgb(112, 58, 58);
+}
+
+.poke_page{
+    font-size: 25px;
+    cursor: pointer;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(226, 48, 48);
+    padding: 20px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+    color: rgb(119, 44, 44);
+    background-color: white;
+}
+
+.poke_page:hover{
+    background-color: rgb(112, 58, 58);
+    color: white;
+    border-color: rgb(112, 58, 58);
+}
+
+@media(max-width: 740px){
+    .poke_arrow{
+        font-size: 15px;
+        font-weight: 200px;
+        padding: 10px;
+    }
+
+    .poke_arrow-der{
+        font-size: 15px;
+        font-weight: 200px;
+        padding: 10px;
+    }
+
+    .poke_more{
+        font-size: 15px;
+        font-weight: 200px;
+        padding: 10px;
+    }
+
+    .poke_page{
+        font-size: 15px;
+        font-weight: 200px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,64 @@
+.header__red {
+  height: 100px;
+  background-image: url(https://media.istockphoto.com/id/171316682/es/foto/fondo-grunge-rojo.jpg?b=1&s=170667a&w=0&k=20&c=SYA2jAgewV_-nurfpRL9L02x9HgNGvb2itvKQFOxcsg=);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header__img {
+  width: min(400px, calc(100% - 20px));
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  top: 32px;
+}
+
+.header__black {
+  height: 50px;
+  background-color: #0c0c0c;
+  position: relative;
+}
+
+.header__pokeball {
+  position: absolute;
+  right: 40px;
+  top: -20px;
+  background-color: rgba(255, 255,255, 1);
+  border: 10px solid #0c0c0c;
+  width: 90px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.header__pokeball::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-color: rgba(33, 33, 33, 1);
+  border: 10px solid #0c0c0c;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__btn {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  color: rgb(197, 69, 69);
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+
+.header__btn:hover {
+  color: #ee8e8e;
+}

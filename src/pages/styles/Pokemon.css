@@ -1,0 +1,278 @@
+.poke_scan-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 83vh;
+    }
+
+.poke_scan-info{
+    position: relative;
+    margin-top: 60px;
+}
+
+.poke_scan{
+    margin: 0 auto;
+    position: relative;
+}
+
+.poke_scan-img1 img{
+    margin: 0 auto;
+}
+
+.poke_scan-img1{
+    max-width: 800px; 
+    display: grid;
+    place-content: center; 
+}
+.poke_scan-img2{
+    position: absolute;
+    left: 80px;
+    width: 22%;
+    top: 128px;
+}
+
+
+.poke_scan-name1{
+    position: absolute;
+    color: red;
+    top: 112px;
+    left: 115px;
+    font-size: 16px;
+    font-family: 'Wonder Boy In Monster World', sans-serif;
+     text-shadow: -2px 5px 10px #111111b8;
+   
+}
+
+.poke_scan-name2{
+    position: absolute;
+    color: red;
+    top: -180px;
+    left: 60px;
+    font-size: 22px;
+    font-family: 'Wonder Boy In Monster World', sans-serif;
+    text-shadow: 3px 10px 10px #111111b6;
+    }
+/* ****** STATS ****** */
+
+.pokemon_stats{
+    position: absolute;
+    left: 320px;
+    top: 120px;
+    color: #fff;
+    text-shadow: 2px 10px 10px #111;
+}
+
+.pokemon_stats-title {
+    font-family: 'serious1', sans-serif;
+}
+
+.pokemon_stats-name {
+    font-family: 'serious1', sans-serif;
+}
+
+
+.pokemon_stats-info{
+    width: 100%;
+}
+
+.pokemon_stats-barGray{
+    height: 25px;
+}
+
+.pokemon_stats-barProgress{
+    background: linear-gradient(90deg, #f2e580 -2.25%, #ff9100 133.18%);
+    height: 20px;
+    position: absolute;
+
+
+}
+
+.pokemon_stats-title {
+    font-size: 20px;
+}
+
+.pokemon_stats-name{
+    font-size: 12px;
+    color: rgb(153, 167, 224);
+}
+    
+.pokemon_stats-value {
+    font-size: 13px;
+}
+
+
+/* ****** PROPIETIES ****** */
+
+.poke_scan-properties{
+    padding: 20px;
+}
+
+.poke_scan-complex1{
+    position: absolute;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px;
+    top: 63px;
+    left: 130px;
+    gap: 15px;
+}
+
+.poke_scan-complex2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: absolute;
+    top: 185px;
+    left: 127px;
+    gap: 10px;
+    font-size: 13px;
+    font-family: 'serious1', sans-serif;
+}
+
+.poke_scan-skills {
+    position:absolute;
+    top: 60px;
+}
+
+.poke_scan-complex2 h3 {
+    color: rgb(153, 167, 224);
+}
+
+.poke_scan-height{
+    font-size: 18px;
+    
+}
+
+.poke_scan-height h5{
+    color: rgb(153, 167, 224)
+}
+
+
+
+.poke_scan-weight{
+    font-size: 18px;
+}
+
+.poke_scan-weight h5 {
+    color: rgb(153, 167, 224);
+}
+
+.poke_scan-complex1 h5{
+    font-family: 'serious1', sans-serif;    
+}
+
+ @media(max-width: 600px){ 
+
+
+    .poke_scan-img1{
+        max-width: 320px; 
+        display: grid;
+        place-content: center; 
+    }
+
+    
+.poke_scan-img2{
+    position: absolute;
+    left: 55px;
+    width: 20%;
+    top: 72px;
+}
+
+
+.poke_scan-name1{
+    position: absolute;
+    color: red;
+    top: 62px;
+    left: 65px;
+    font-size: 10px;
+   
+}
+
+.poke_scan-name2{
+    position: absolute;
+    color: red;
+    top: -105px;
+    left: 33px;
+    font-size: 13px;
+}
+
+
+.pokemon_stats{
+    position: absolute;
+    left: 180px;
+    top: 97px;
+}
+
+.pokemon_stats-info{
+    width: 100%;
+}
+
+.pokemon_stats-barGray{
+    height: 9px;
+}
+
+.pokemon_stats-barProgress{
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    height: 10px;
+
+}
+
+.pokemon_stats-title {
+    font-size: 14px;
+}
+
+.pokemon_stats-name{
+    font-size: 8px;
+}
+    
+.pokemon_stats-value {
+    font-size: 8px;
+}
+
+
+
+
+.poke_scan-properties{
+    padding: 20px;
+}
+
+.poke_scan-complex1{
+    position: absolute;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 20px;
+    top: 40px;
+    left: 75px;
+    gap: 5px;
+}
+
+.poke_scan-complex2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: absolute;
+    top: 105px;
+    left: 70px;
+    gap: 0px;
+    font-size: 8px;
+}
+
+.poke_scan-skills {
+    position:absolute;
+    top: 42px;
+}
+
+
+.poke_scan-height{
+    font-size: 12px;
+}
+
+.poke_scan-weight{
+    font-size: 12px;
+} 
+
+.pokemon_stats-name {
+    font-family: 'serious1', sans-serif;
+    font-size: 7px;
+}
+}
+
